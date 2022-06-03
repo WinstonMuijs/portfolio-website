@@ -8,6 +8,14 @@
 /* ****************** */
  /* ROOT PSEUDOCLASS - variables */
  /* **************** */
+ :root{
+   /* colors */
+   /* font-size */
+   /* decoration */
+   /* font-weight */
+   /* font-family */
+
+ }
 
 
 /* DEFAULT BOX SIZE FOR DOCUMENT */
@@ -133,6 +141,7 @@ h2{
 }
 .introduction-text__item{
   max-width:400px;
+  color:#53dcff;
 }
 /* general button styling */
 button{

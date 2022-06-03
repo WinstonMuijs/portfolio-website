@@ -90,7 +90,7 @@ body ,header, section, footer{
 }
 /* styling for header 1 */
 h1{
-  color: #adadad;
+  color: var(--secondary-color);
   font-family:var(--h1-font-family);
   font-size: var(--font-size);
   font-weight:var(--font-weight);
@@ -306,7 +306,7 @@ abbr{
 }
 /* styling text */
 .webdeveloper, .job, .design{
-  color:var(--secondary-color);
+  color:var(--gold-color);
 }
 .dot{
   color:var(--turquoise-color);
