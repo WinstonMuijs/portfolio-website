@@ -110,7 +110,7 @@ h2{
 }
 .introduction-text__item{
   max-width:400px;
-  color:#53dcff;
+  color:var(--turquoise-color);
 }
 /* general button styling */
 button,.submit_btn,.button{
