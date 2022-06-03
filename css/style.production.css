@@ -113,23 +113,26 @@ footer{
 }
 /* styling for header 1 */
 h1{
-  color: #adadad;
+  color: #fff;
   font-family:"Source Serif Pro", serif;
   font-size: 1.5rem;
   font-weight:400;
-  max-width:350px;
+  max-width:450px;
 }
 /* styling for header 2 */
 h2{
   font-size: 24px;
   font-weight:700;
 }
+.introduction__header{
+  font-size: 2rem;
+}
 .introduction-text{
   padding:50px;
   margin: 20px;
 }
 .introduction-text__item{
-  max-width:350px;
+  max-width:400px;
 }
 /* general button styling */
 button{
@@ -438,13 +441,13 @@ abbr{
 }
 /* styling text */
 .webdeveloper{
-  color:#fff;
+  color:#ddc35b;
 }
 .job{
-  color:#fff;
+  color:#ddc35b;
 }
 .design{
-  color:#fff;
+  color:#ddc35b;
 }
 .dot{
   color:#53dcff;
