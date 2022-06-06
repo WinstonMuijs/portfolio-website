@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/style.production.css">
   </head>
   <body>
+    <!-- header contactpage! -->
     <header class="page-header">
     <!-- image of logo -->
       <img src="img/Kunstbijen.svg" alt="logo of webdevelopment agency kunstbijen, a text logo with starting capital letters that consists of the agency name" class="page-header__item"/>
@@ -47,27 +48,27 @@
       <form class="contact-form" action="#" method="post">
         <!-- name -->
         <label class="contact-label" for="fullname">
-          <span>Please enter your fullname<span>
-          <abbr title="required" aria-label="required">*</abbr>
+          <span>Please enter your fullname</span>
+          <abbr title="required">*</abbr>
         </label>
-        <input type="text" name="fullname" class="information__fullname" placeholder="Fullname" required>
+        <input type="text" name="fullname" class="information__fullname" id="fullname" placeholder="Fullname" required>
         <!-- email -->
         <label class="contact-label" for="email">
-          <span>Please enter your email address<span>
-          <abbr title="required" aria-label="required">*</abbr>
+          <span>Please enter your email address</span>
+          <abbr title="required">*</abbr>
         </label>
-        <input type="email" name="email" class="information__email" placeholder="Your email" required>
+        <input type="email" name="email" class="information__email" id="email" placeholder="Your email" required>
         <!-- subject -->
         <label class="contact-label" for="subject">
-          <span>Subject<span>
+          <span>Subject</span>
         </label>
-        <input type="text" name="subject" class="information__subject" placeholder="Subject" >
+        <input type="text" name="subject" class="information__subject" id="subject" placeholder="Subject" >
         <!-- message -->
         <label class="contact-label" for="message">
-          <span>Please enter your message or question<span>
-          <abbr title="required" aria-label="required">*</abbr>
+          <span>Please enter your message or question</span>
+          <abbr title="required">*</abbr>
         </label>
-        <textarea name="message" class="information__message" rows="4" cols="30" maxlength="240" placeholder="A message or question in 240 words" required>
+        <textarea name="message" id="message" class="information__message" rows="4" cols="30" maxlength="240" placeholder="A message or question in 240 words" required>
         </textarea>
         <!-- button -->
         <button class="form-btn" type="submit" value="Submit">Submit form</button>
@@ -83,10 +84,10 @@
         </div>
         <div class="contact-information__item2">
         <!-- email -->
-          <label id="personal-email" for="mail">Email:</label>
-          <a class="contact-information__mail contact-information__mail--visited contact-information__mail--active contact-information__mail--hover"href="mailto:winstonhmuijs@gmail.com">info@kunstbijen.nl</a>
+          <label id="personal-email">Email:</label>
+          <a class="contact-information__mail contact-information__mail--visited contact-information__mail--active contact-information__mail--hover" href="mailto:winstonhmuijs@gmail.com">info@kunstbijen.nl</a>
         <!-- telephone -->
-          <label id="personal-number" for="telephone">Telephone:</label>
+          <label id="personal-number">Telephone:</label>
           <a class="contact-information__tel contact-information__tel--visited contact-information__tel--active contact-information__tel--hover" href="tel:+31535676879" aria-label="telephone number" >+31535676879</a>
         <!-- contact me -->
           <a id="agency-email" href="mailto:infokunstbijen.nl">Contact me</a>
