@@ -269,8 +269,10 @@ abbr{
   flex-grow: 1;
   text-align: right;
 }
+/* *********************** */
+/* GRID */
+/* *********************** */
 
-/* older browser without grid */
 /* start grid fallback */
 .grid__item {
  display: inline-block;
