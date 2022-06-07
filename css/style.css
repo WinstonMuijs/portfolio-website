@@ -1,4 +1,3 @@
-
 /* ROOT PSEUDOCLASS - variables */
 :root {
   /* colors */
@@ -291,6 +290,7 @@ svg {
 
 .contact-information {
   display: flex;
+  max-width: 500px;
   gap: 20px;
 }
 
@@ -602,6 +602,10 @@ abbr {
     padding: 10px;
     width: 90%;
     height: auto;
+  }
+
+  .contact-form {
+    max-width: 300px;
   }
 
   input {
