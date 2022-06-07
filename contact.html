@@ -45,34 +45,36 @@
     <section class="information">
       <h1 class="information__header">Contact me for a <span title=" cup of coffee"> &#x2615; </span>!</h1>
     <!-- contact form -->
-      <form class="contact-form" action="#" method="post">
+      <div class="form-flexboxcontainer">
+        <form class="contact-form" action="#" method="post">
         <!-- name -->
-        <label class="contact-label" for="fullname">
-          <span>Please enter your fullname</span>
-          <abbr title="required">*</abbr>
-        </label>
-        <input type="text" name="fullname" class="information__fullname" id="fullname" placeholder="Fullname" required>
+          <label class="contact-label" for="fullname">
+            <span>Please enter your fullname</span>
+            <abbr title="required">*</abbr>
+          </label>
+          <input type="text" name="fullname" class="information__fullname" id="fullname" placeholder="Fullname" required>
         <!-- email -->
-        <label class="contact-label" for="email">
-          <span>Please enter your email address</span>
-          <abbr title="required">*</abbr>
-        </label>
-        <input type="email" name="email" class="information__email" id="email" placeholder="Your email" required>
+          <label class="contact-label" for="email">
+            <span>Please enter your email address</span>
+            <abbr title="required">*</abbr>
+          </label>
+          <input type="email" name="email" class="information__email" id="email" placeholder="Your email" required>
         <!-- subject -->
-        <label class="contact-label" for="subject">
-          <span>Subject</span>
-        </label>
-        <input type="text" name="subject" class="information__subject" id="subject" placeholder="Subject" >
+          <label class="contact-label" for="subject">
+            <span>Subject</span>
+          </label>
+          <input type="text" name="subject" class="information__subject" id="subject" placeholder="Subject" >
         <!-- message -->
-        <label class="contact-label" for="message">
-          <span>Please enter your message or question</span>
-          <abbr title="required">*</abbr>
-        </label>
-        <textarea name="message" id="message" class="information__message" rows="4" cols="30" maxlength="240" placeholder="A message or question in 240 words" required>
-        </textarea>
+          <label class="contact-label" for="message">
+            <span>Please enter your message or question</span>
+            <abbr title="required">*</abbr>
+          </label>
+          <textarea name="message" id="message" class="information__message" rows="4" cols="30" maxlength="240" placeholder="A message or question in 240 words" required>
+          </textarea>
         <!-- button -->
-        <button class="form-btn" type="submit" value="Submit">Submit form</button>
-      </form>
+          <button class="form-btn" type="submit" value="Submit">Submit form</button>
+        </form>
+      </div>
     <!-- end of contact-form -->
       <div class="contact-information">
       <!-- contact information -->
@@ -80,7 +82,7 @@
           Winston Muijs<br>
           Evertsenstr.18<br>
           1426TW Huizen<br>
-          The Netherlands
+          Netherlands
         </div>
         <div class="contact-information__item2">
         <!-- email -->
