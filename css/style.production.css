@@ -436,7 +436,7 @@ abbr {
 
 /* WORKPAGE */
 
-/* Header as flexboxcontainer with flexchildren */
+/* flexboxcontainer with flexchildren */
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +460,7 @@ abbr {
   text-align: right;
 }
 
+/* header workpage  */
 .work-header {
   display: -webkit-box;
   display: -ms-flexbox;
