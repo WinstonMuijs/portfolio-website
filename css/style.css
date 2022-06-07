@@ -232,6 +232,7 @@ button {
 }
 
 .about-header {
+  color: var(--gold-color);
   font-size: var(--font-size);
   margin: 0 auto;
 }
@@ -591,6 +592,10 @@ abbr {
 
   input {
     padding: 8px;
+  }
+
+  .form-btn {
+    width: 100%;
   }
 }
 
