@@ -321,6 +321,7 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 500px;
   gap: 20px;
 }
 
@@ -436,7 +437,7 @@ abbr {
 
 /* WORKPAGE */
 
-/* flexboxcontainer with flexchildren */
+/* Header as flexboxcontainer with flexchildren */
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,7 +461,7 @@ abbr {
   text-align: right;
 }
 
-/* header workpage  */
+/* header workpage */
 .work-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,6 +708,10 @@ abbr {
     padding: 10px;
     width: 90%;
     height: auto;
+  }
+
+  .contact-form {
+    max-width: 300px;
   }
 
   input {
