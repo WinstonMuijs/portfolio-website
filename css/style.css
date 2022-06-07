@@ -419,6 +419,15 @@ abbr {
   text-align: right;
 }
 
+.work-header {
+  display: flex;
+  justify-content: center;
+}
+
+.work-header__item {
+  color: var(--gold-color);
+}
+
 /* *********************** */
 
 /* GRID */
@@ -582,6 +591,10 @@ abbr {
 
   h1 {
     font-size: 1.2rem;
+  }
+
+  .work-header__item {
+    font-size: 1.5rem;
   }
 
   svg {
