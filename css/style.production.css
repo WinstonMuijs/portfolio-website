@@ -249,6 +249,7 @@ button {
 }
 
 .about-header {
+  /*  color change */
   color: #ddc35b;
   font-size: 1.5rem;
   margin: 0 auto;
